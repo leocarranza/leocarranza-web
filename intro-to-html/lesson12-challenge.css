@@ -1,0 +1,142 @@
+div {
+    font-family: Arial;
+  }
+  
+  .container {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(200, 200, 200);
+    width: 300px;
+    border-radius: 6px;
+    margin-bottom: 50px;
+  }
+  
+  .notif {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    cursor: pointer;
+  }
+  .notif:hover{
+    background-color: rgb(49, 109, 245);
+    color: white;
+    opacity: 0.8;
+  }
+  .num {
+    background-color: rgb(49, 109, 245);
+    color: white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  p {
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-picture {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 25px;
+    margin-right: 15px;
+  }
+  
+  .info {
+    width: 200px;
+  }
+  
+  .name {
+    font-weight: bold;
+    margin-bottom: 3px;
+  }
+  
+  .handle {
+    color: rgb(150, 150, 150);
+    margin-bottom: 5px;
+  }
+  
+  .category {
+    color: rgb(150, 150, 150);
+    font-size: 14px;
+  }
+  
+  .follow-button {
+    background-color: rgb(29, 155, 240);
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.2;
+  }
+  .follow-button:active{
+    color: rgb(29, 155, 240);
+    background-color: white;
+    border-color: rgb(29, 155, 240);
+    border-style: ridge;
+  }
+.header{
+  background-color: rgb(120, 82, 178);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.home-link{
+  font-weight: bold;
+}
+.text-box{
+  width: 500px;
+  border: none;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  height: 30px;
+  border-radius: 15px;
+  padding-left: 20px;
+  margin-left: 8px;
+}
+.download-button{
+  background-color: rgb(120, 82, 178);
+  color: white;
+  border-color: white;
+  border-style: ridge;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  margin-left: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.download-button:active{
+  color: rgb(120, 82, 178);
+  background-color: white;
+  border-color: rgb(120, 82, 178);
+}

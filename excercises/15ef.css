@@ -1,0 +1,56 @@
+body{
+    height: 3000px;
+}
+.container{
+    position: relative;
+    display: inline-block;
+    border-color: black;
+    border: 4px;
+    border-style: ridge;
+    cursor: pointer;
+}
+.image-cloth-container{
+    position: relative;
+}
+.image-cloth{
+    width: 150px;
+    height: 200px;
+}
+.discount{
+    position: absolute;
+    font-family: Arial;
+    background-color: black;
+    color: white;
+    top: 50px;
+    right: 10px;
+}
+.button-container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Add-To-Cart{
+    background-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.Add-To-Cart:hover{
+    opacity: 0.6;
+}
+.Add-To-Cart:active{
+    background-color: black;
+    color: white;
+}

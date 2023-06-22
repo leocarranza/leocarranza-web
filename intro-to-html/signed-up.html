@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <style>
+        .fn,.ln{
+            display: inline-block;
+            border-radius: 5px;
+            height: 40px;
+            width: 200px;
+            color: gray;
+            border-color: gray;
+            border-style: solid;
+        }
+        .em{
+            display: block;
+            border-radius: 5px;
+            height: 40px;
+            margin-top: 5px;
+            width: 410px;
+            color: gray;
+            border-color: gray;
+            border-style: solid;
+        }
+        .but{
+            border-radius: 5px;
+            height: 40px;
+            margin-top: 5px;
+            width: 417px;
+            background-color: rgb(13, 125, 222);
+            color: white;
+            border-color: none;
+            border-style: none;
+            font-weight: 700;
+            cursor: pointer;
+        }
+        .but:hover{
+            opacity: 0.8;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+        }
+        .but:active{
+            opacity: 0.5;
+        }
+       </style>
+       
+    </head>
+    <body>
+        <input class="fn" type="text" placeholder="First Name">
+        <input class="ln" type="text" placeholder="Last Name">
+        <input class="em" type="text" placeholder="Email">
+        <button class="but">Signed Up</button>
+    </body>
+</html>

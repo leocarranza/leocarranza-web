@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Display</title>
+        <style>
+            p{
+            font-size: large;
+            width: 220px;
+
+            }
+            .name,
+            .email{
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                width: 200px;
+                min-height: auto;
+                display: block;
+                margin-top: 3px;
+            }
+            .survey,
+            .yes,
+            .no{
+                display: inline-block;
+                vertical-align: middle;
+            }
+            .yes,
+            .no{
+                cursor: pointer;
+                margin-left: 5px;
+                padding: 2px 8px;
+                border-radius: 4px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main-container">
+        <input class="name" type="text" placeholder="Name">
+        <input class="email" type="text" placeholder="Email">
+        <p class="survey"> Thanks for chatting our customer support. Would you like to take our quick survey? </p>
+        <button class="yes">Yes</button><button class="no">No</button>
+        </div>
+    </body>
+</html>

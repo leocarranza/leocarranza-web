@@ -1,0 +1,19 @@
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: semi-bold;
+}
+.font{
+    font-size: 80px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 150px;
+}
+.ord{
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 1px;
+}
+.und{
+    text-decoration: underline;
+    cursor: pointer;
+}
